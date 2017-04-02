@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "mocha": "^3.2.0",
+    "power-assert": "^1.4.2",
+    "ts-node": "^3.0.2",
+    "underscore": "^1.8.3"
+  },
+  "scripts": {
+    "init": "yarn install;typings install",
+    "tsc": "tsc --noEmit true",
+    "test": "mocha --compilers ts:ts-node/register test/**/*.ts"
+  }
+}
